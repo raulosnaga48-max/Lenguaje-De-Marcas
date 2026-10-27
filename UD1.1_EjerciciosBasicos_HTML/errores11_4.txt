@@ -1,0 +1,19 @@
+ERRORES ENCONTRADOS EN EL EJERCICIO 4
+
+1. Línea 1: la declaración es <!DOCTYPE htm> y debe ser <!DOCTYPE html>. Faltaba la "l" final, así que no era el DOCTYPE de HTML5.
+
+2. Línea 1: el atributo del elemento raíz estaba mal escrito: lan=es.   Debe ser lang="es" (el nombre del atributo es "lang" de language, no "lan").
+
+3. Línea 1: el valor del atributo no llevaba comillas. Debe escribirse entre comillas: lang="es".
+
+4. Líneas 2-4: falta <meta charset="UTF-8"> en el <head>. El texto tiene tildes y sin la codificación declarada pueden verse mal.
+
+5. Línea 3: la etiqueta <title> no está cerrada. Debe ser <title>Página de contacto</title>.
+
+6. Línea 6: <h1>Contacto<h1> abre dos veces la etiqueta en vez de cerrarla. Debe ser <h1>Contacto</h1>.
+
+7. Línea 7: <b> y <p> están mal cerrados: <p>...<b>...</p></b>. Las etiquetas deben cerrarse en orden inverso al de apertura: <p>...<b>...</b></p>.
+
+8. Línea 8: el <p> del horario no está cerrado.Falta </p> al final del párrafo.
+
+9. Líneas 10-11: los <li> ("Teléfono" y "Email") no están cerrados. Cada uno necesita su </li>.
